@@ -1,0 +1,580 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <style>
+       body {
+         font-family: 'Poppins';
+       }
+       .jumbotron {
+         text-shadow: #000 1px 1px;
+       }
+       .background-header {
+         background-image: url("assets/bg img.svg");
+         background-color: #fafbfc;
+         height: 800px;
+         height: 800px;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         position: relative;
+       }
+       .button-primer {
+         background-color: #105cad;
+         border-color: #105CAD;
+         color: #fff;
+         text-shadow: 0px 0px;
+         font-size: 14px;
+         padding: 12px 24px
+       }
+       .button-primer:hover {
+         background-color: transparent;
+         border-color: #fff;
+         color: #fff;
+         text-shadow: 0px 0px;
+       }
+       .button-scnd {
+         background-color: #fafbfc;
+         border-color: #000;
+         color: #105CAD;
+         text-shadow: 0px 0px;
+         font-size: 14px;
+         font-weight: bold;
+         padding: 12px 24px
+       }
+       .button-scnd:hover {
+         background-color:#105CAD;
+         border-color: #105CAD;
+         color: #fff;
+         text-shadow: 0px 0px;
+       }
+       .button-thrd {
+         background-color: #fafbfc;
+         border-color: #000;
+         color: #105CAD;
+         text-shadow: 0px 0px;
+         font-size: 14px;
+         font-weight: bold;
+         padding: 12px 24px
+       }
+       .button-thrd:hover {
+         background-color:#105CAD;
+         border-color: #fff;
+         color: #fff;
+         text-shadow: 0px 0px;
+       }
+       .container-fluid-max {
+         max-width: 1440px;
+       }
+       .service-style {
+         margin-top: 15px;
+         background-color: transparent;
+       }
+       .chooseUs{
+        padding-top: 180px;
+        padding-bottom: 180px;
+       }
+       .text-green {
+         color: #0b9b6b;
+       }
+       .bg-red {
+         background-color: #f25757;
+       }
+       .card:hover {
+         transition: transform 0.5s;
+         transform: translateY(-10px);s
+       }
+       .navbar-nav .nav-link.active {
+         border-bottom: 2px solid #fff;
+      }
+      .blue-bold-text{
+        color: #105CAD;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+      .gambar{
+        height: 80px;
+      }
+      .phar{
+        padding-top: 35px;
+        padding-bottom: 100px;
+      }
+      #contact {
+        border-top: 1px solid lightgray;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Navigasi bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets\Logo.png" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--header-->
+    <section id="home" class="jumbotron jumbotron-fluid background-header">
+      <div class="container-fluid text-center">
+        <h1
+          class="display-2"
+          style="
+            color: aliceblue;
+            padding-top: 200;
+            font-weight: bold;
+            font-size: 64px;
+          "
+        >
+          Document Control System
+        </h1>
+        <h2 style="color: #fff">Pusat Pengendalian Dokumen</h2>
+        <a
+          href="https://www.whatsapp.com/?lang=id_ID"
+          class="btn button-primer btn-lg"
+          role="button"
+          style="margin-top: 25px"
+          >Get Started</a
+        >
+      </div>
+    </section>
+
+    <!--Why Choose Us-->
+    <section
+      class="chooseUs container-fluid container-fluid-max"
+      style="width: 60%; height: min-content"
+    >
+      <div class="row text-center">
+        <div class="col-12 pb-4">
+          <h2 class="display-4 text-center mb-5" style="font-weight: bold">
+            Why Choose Us
+          </h2>
+        </div>
+        <div class="col-11 col-sm-4 col-lg-3">
+          <img class="gambar" src="assets\userFriend.svg" alt="" />
+          <h5 class="blue-bold-text">User Friendly</h5>
+        </div>
+        <div class="col-11 col-sm-4 col-lg-3">
+          <img class="gambar" src="assets\cleanDes.svg" alt="" />
+          <h5 class="blue-bold-text">Clean Design</h5>
+        </div>
+        <div class="col-11 col-sm-4 col-lg-3">
+          <img class="gambar" src="assets\keamananTinggi.svg" alt="" />
+          <h5 class="blue-bold-text">Tingkat Keamanan Tinggi</h5>
+        </div>
+        <div class="col-11 col-sm-4 col-lg-3">
+          <img class="gambar" src="assets\komunikasi.svg" alt="" />
+          <h5 class="blue-bold-text">Mudah Berkolaborasi</h5>
+        </div>
+      </div>
+    </section>
+
+    <!--our product-->
+    <section id="about" style="background-color: rgba(236, 236, 236, 0.6)">
+      <div class="container-fluid container-fluid-max">
+        <div class="row">
+          <div class="col-12 col-md-6 order-md-1">
+            <div style="padding: 15px">
+              <h3
+                class="display-3 text-left mt-3 mb-3"
+                style="
+                  color: #000;
+                  font-size: 50;
+                  font-weight: bold;
+                  margin-top: 20px;
+                  margin-left: 30px;
+                  padding-right: 350px;
+                "
+              >
+                About Our Product
+              </h3>
+              <p
+                class="text-left"
+                style="
+                  font-size: 18px;
+                  color: 5D6679;
+                  margin-top: 50px;
+                  margin-left: 30px;
+                  padding-right: 100px;
+                "
+              >
+                Selamat datang di platform Document Control System (DCS) kami!
+                Kami dengan bangga memperkenalkan solusi inovatif kami yang
+                dirancang untuk mengubah cara Anda mengelola dan mengakses
+                dokumen serta informasi dalam organisasi Anda.
+              </p>
+              <p
+                class="text-left"
+                style="
+                  font-size: 18px;
+                  color: 5D6679;
+                  margin-top: 30px;
+                  margin-left: 30px;
+                  padding-right: 100px;
+                "
+              >
+                Document Control System (DCS) adalah perangkat lunak canggih
+                yang dirancang untuk membantu organisasi mengatasi tantangan
+                pengelolaan dokumen dan informasi. DCS memberikan Anda alat yang
+                kuat untuk mengunggah, menyimpan, mengatur, dan berbagi dokumen
+                dengan lebih efisien.
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-12 col-md-6 order-md-2"
+            style="height: 100vh; width: 100%; overflow: hidden"
+          >
+            <img
+              src="assets/businessmen-interview 1.svg"
+              alt=""
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Our Service-->
+    <section
+      id="service"
+      class="service-style container-fluid container-fluid-max"
+      style="max-width: 60%; height: auto"
+    >
+      <div class="row text-center" style="padding: 20px">
+        <div class="col-12 pb-4">
+          <h2
+            class="display-4 text-center mb-5"
+            style="margin-top: 50px; font-weight: bold"
+          >
+            Our Service
+          </h2>
+        </div>
+        <div class="col-12 col-md-4">
+          <img
+            class="gambar"
+            src="assets\os_ManDoc.svg"
+            style="height: 80px"
+            alt=""
+          />
+          <h5 class="blue-bold-text">Manajemen Dokumen Lebih Efisien</h5>
+          <p class="phar">
+            Dokumen dapat dengan mudah diunggah, disimpan, dicari, dan diakses
+            oleh pengguna yang berwenang.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="gambar" src="assets\os_Pembaruan dan revisi.svg" alt="" />
+          <h5 class="blue-bold-text">Pembaruan dan Revisi yang Mudah</h5>
+          <p class="phar">
+            Dapat dengan cepat membuat versi baru dari dokumen, meninjau
+            perubahan, dan melacak versi sebelumnya.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="gambar" src="assets\os_audit.svg" alt="" />
+          <h5 class="blue-bold-text">Kepatuhan dan Audit yang Lebih Baik</h5>
+          <p class="phar">
+            Membuat audit internal dan eksternal menjadi lebih mudah.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="gambar" src="assets\os_secure.svg" alt="" />
+          <h5 class="blue-bold-text">Keamanan Informasi</h5>
+          <p class="phar" style="margin-top: 40px">
+            Memberikan tingkat keamanan yang tinggi terhadap dokumen-dokumen
+            sensitif.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="gambar" src="assets\os_revTrack.svg" alt="" />
+          <h5 class="blue-bold-text">Keterlacakan Revisi Dokumen</h5>
+          <p class="phar">
+            Membantu dalam mengidentifikasi siapa yang melakukan perubahan, a pa
+            yang diubah, dan kapan perubahan itu dilakukan.
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <img class="gambar" src="assets\os_pelatihan.svg" alt="" />
+          <h5 class="blue-bold-text">Pelatihan dan Sumber Daya</h5>
+          <p class="phar">
+            Menyediakan pelatihan bagi pengguna baru dan juga menyediakan sumber
+            daya online, seperti panduan pengguna dan tutorial.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Pricing Plans-->
+    <section id="product" class="container">
+      <div class="row text-center">
+        <div class="col-12 pb-4">
+          <h2
+            class="display-4 mb-5"
+            style="margin-top: 4rem !important; font-weight: bold"
+          >
+            Pricing Plans
+          </h2>
+        </div>
+        <div class="card-deck mx-auto">
+          <div class="col-md-6 col-lg-4 mb-4" style="padding-bottom: 50px">
+            <div class="card" style="width: 300px; height: 500px">
+              <div class="card-body">
+                <h4
+                  class="card-title"
+                  style="
+                    font-weight: bold;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                  "
+                >
+                  Startup
+                </h4>
+                <h2
+                  class="card-title"
+                  style="font-weight: bold; color: #105cad; margin-bottom: 20px"
+                >
+                  $300
+                </h2>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <a
+                  href=""
+                  class="btn button-scnd btn-lg"
+                  role="button"
+                  style="margin-top: 25px"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card" style="width: 300px; height: 500px">
+              <div
+                class="card-body"
+                style="color: #fff; background-color: #105cad"
+              >
+                <h4
+                  class="card-title"
+                  style="
+                    font-weight: bold;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                  "
+                >
+                  Startup
+                </h4>
+                <h2 class="card-title" style="font-weight: bold; color: #fff">
+                  $300
+                </h2>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <a
+                  href=""
+                  class="btn button-thrd btn-lg"
+                  role="button"
+                  style="margin-top: 25px"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card" style="width: 300px; height: 500px">
+              <div class="card-body">
+                <h4
+                  class="card-title"
+                  style="
+                    font-weight: bold;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                  "
+                >
+                  Startup
+                </h4>
+                <h2
+                  class="card-title"
+                  style="font-weight: bold; color: #105cad; margin-bottom: 20px"
+                >
+                  $300
+                </h2>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <p class="card-text">Startup Business</p>
+                <a
+                  href=""
+                  class="btn button-scnd btn-lg"
+                  role="button"
+                  style="margin-top: 25px"
+                  >Order Now</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact-->
+    <section id="contact" class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 text-center">
+          <img
+            src="assets\biru 1.png"
+            style="max-height: 55px; margin-bottom: 70px"
+            alt=""
+          />
+          <img
+            src="assets\credit.svg"
+            style="max-width: 200px; display: block; margin: 0 auto"
+            alt=""
+          />
+        </div>
+        <div class="col-lg-4">
+          <div>
+            <p style="font-weight: bold">Office</p>
+            <p>
+              Jl Danau Melahayu No. 23A<br />
+              Pesona Telaga Cibinong<br />
+              Kel. Harapan Jaya, Kec. Cibinong<br />
+              Cibinong, Bogor
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 text-left">
+          <div>
+            <p style="font-weight: bold">Contact Us</p>
+            <p>
+              <img
+                src="assets\phone_enabled.svg"
+                alt="Logo"
+                style="
+                  max-height: 24px;
+                  vertical-align: middle;
+                  margin-right: 10px;
+                "
+              />
+              303-1157-09<br />
+            </p>
+            <p>
+              <img
+                src="assets\mail.svg"
+                alt="Logo"
+                style="
+                  max-height: 24px;
+                  vertical-align: middle;
+                  margin-right: 10px;
+                "
+              />
+              iso9001@gmail.com<br />
+            </p>
+            <p>
+              <img
+                src="assets\logos_whatsapp-icon.svg"
+                alt="Logo"
+                style="
+                  max-height: 24px;
+                  vertical-align: middle;
+                  margin-right: 10px;
+                "
+              />
+              +62-813-1117-3707<br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-light"></footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get all the navigation links
+        const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+        // Create an Intersection Observer
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              const sectionId = entry.target.getAttribute("id");
+              const navLink = document.querySelector(
+                `.nav-link[href="#${sectionId}"]`
+              );
+
+              if (entry.isIntersecting) {
+                // Add the "active" class to the corresponding navbar link
+                navLink.classList.add("active");
+              } else {
+                // Remove the "active" class from other links
+                navLink.classList.remove("active");
+              }
+            });
+          },
+          {
+            rootMargin: "0px",
+            threshold: 0.5, // Adjust the threshold as needed
+          }
+        );
+
+        // Observe each section
+        document.querySelectorAll("section[id]").forEach((section) => {
+          observer.observe(section);
+        });
+      });
+    </script>
+  </body>
+</html>
